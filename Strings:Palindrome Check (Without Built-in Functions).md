@@ -13,16 +13,19 @@ To write a Python program to check whether the string `"google"` is a **palindro
 
 ## 🧾 Program
 ```
-n=int(input())
-def remove(a):
-    for i in range(0,len(a)):
-        if(i!=n):
-            print(a[i],end='')
+string="google" 
+
+if string==string[::-1]: 
+
+   print ("The entered string is palindrome")
+
+else: 
+
+   print ("The entered string is not palindrome") 
 ```
-
 ## Output
+<img width="720" height="165" alt="image" src="https://github.com/user-attachments/assets/2299124b-79d3-41bb-a46d-8fd31b44e604" />
 
-<img width="634" height="189" alt="517997318-cbe6600e-5369-48f2-9661-c074abaad1cd" src="https://github.com/user-attachments/assets/9dd5c2f5-6ca3-405e-86f5-ecb42bc9be59" />
 
 ## Result
-Thus the program executed successfully.
+Thus the given program is verified and executed sucessfully.
